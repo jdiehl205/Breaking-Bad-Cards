@@ -46,6 +46,7 @@ function App() {
       <h1><span>Ba</span>d</h1>
 
       <Search value={filterCharacters} filter={filter}/>
+      <p id="info">Hover Over The Characters To Get More Info On Them</p>
       <Characters styles={style} characters={characters} loading={loading}/>
       </>
     </div>
