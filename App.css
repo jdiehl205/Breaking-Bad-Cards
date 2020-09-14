@@ -77,6 +77,10 @@ img{
   padding: 0;
 }
 
+#info{
+    font-size: .8em;
+ }
+
 @media(min-width: 320px){
   .card-container{
     width: 70px;
@@ -163,6 +167,10 @@ img{
   .back-card h5{
     font-size: .8em;
     margin: 0;
+  }
+  
+  #info{
+    font-size: 1em;
   }
 }
 
